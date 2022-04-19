@@ -17,12 +17,12 @@ app.get('/api/env/allkeys', async (req, res) => {
 
 app.get('/api/hello', async (req, res) => {
 
-    res.send('Hello World Test Erto v1')
+    res.send('Hello World Test Erto v')
 })
 
 app.get('/api/merhaba', (req, res) => {
 
-    res.send('Merhaba Dünya v1')
+    res.send('Merhaba Dünya v2')
 })
 
 app.post('/api/name', (req, res) => {
